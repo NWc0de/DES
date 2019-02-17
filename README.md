@@ -2,7 +2,8 @@
 Implementation of DES and triple DES in Python. Operates on files. 
 
 This implementation uses the PKCS5 padding scheme and strips the padding with regex.
-I am not sure if this will conflict with files that potentially have a similar byte sequence.
+I am not sure if this will conflict with files that happen to have a coincidentally similar byte sequence
+to the padding scheme in one or more of the blocks. 
 
 The key is alphanumerical string translated into integer form.
 
