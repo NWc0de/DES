@@ -1,4 +1,4 @@
-# DES implimentation , by Spencer Little, m0ney@uw.edu
+# DES implimentation , by Spencer Little, mrlittle@uw.edu
 import re
 
 s_boxs =  [
